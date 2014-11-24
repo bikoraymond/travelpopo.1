@@ -1,4 +1,5 @@
 ActiveAdmin.register Agency do
+  permit_params :agency_name, :password, :email, :website
 
 
   # See permitted parameters documentation:
